@@ -24,9 +24,9 @@ public class Main {
        // liverpool.addPlayer(pat);
         liverpool.addPlayer(beckham);
 
-        Team<String> brokenTeam = new Team<>("what kind of team is this?");
+        //Team<String> brokenTeam = new Team<>("what kind of team is this?");
 
-        Team<Integer> t2 = new Team<>("Very weird");
+        //Team<Integer> t2 = new Team<>("Very weird");
 
 
 
