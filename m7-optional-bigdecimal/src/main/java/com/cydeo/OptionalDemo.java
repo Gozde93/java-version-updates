@@ -1,5 +1,8 @@
 package com.cydeo;
 
+import com.cydeo.java9.FactoryMethodsDemo;
+import com.java10.Apple;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
@@ -32,6 +35,9 @@ public class OptionalDemo {
 
         //orElse
         System.out.println(bigNumber.orElse(5));
+
+        FactoryMethodsDemo f1 = new FactoryMethodsDemo();
+        //Apple apple = new Apple(); bunu yazamayiz cunku sadece m8 den java9 u aldik.
 
 
 
